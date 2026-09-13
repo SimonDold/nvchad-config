@@ -1,0 +1,20 @@
+return {
+  ensure_installed = {
+    "cpp",
+    "c",
+    "python",
+    "latex",
+    "bibtex",
+    "markdown",
+    "markdown_inline",
+    "lua",
+    "vim",
+    "vimdoc",
+    "bash",
+    "cmake",
+    "json",
+    "yaml",
+  },
+  highlight = { enable = true },
+  indent = { enable = true },
+}

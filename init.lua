@@ -25,6 +25,10 @@ require("lazy").setup({
   { import = "plugins" },
 }, lazy_config)
 
+-- Enable configured language servers even when nvim-lspconfig is loaded as a
+-- dependency before its lazy-loading callback runs.
+require "configs.lspconfig"
+
 -- load theme
 dofile(vim.g.base46_cache .. "defaults")
 dofile(vim.g.base46_cache .. "statusline")

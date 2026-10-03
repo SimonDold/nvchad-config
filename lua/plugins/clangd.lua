@@ -1,6 +1,7 @@
 return {
   {
     "neovim/nvim-lspconfig",
+    ft = { "c", "cpp", "objc", "objcpp", "cuda" },
     config = function()
       require "configs.lspconfig"
 

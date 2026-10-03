@@ -24,7 +24,6 @@ vim.lsp.config("clangd", {
     "--completion-style=detailed",
     "--pch-storage=memory",
     "--j=4",                    -- adjust to your CPU cores
-    "--index-file",
     "--all-scopes-completion",
   },
   init_options = {
